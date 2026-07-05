@@ -1,0 +1,292 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Cerebras Lab</title><style>html,body{margin:0;background:#0a0b0f}</style></head><body>
+<style>
+  :root {
+    --ink:      #0a0b0f;
+    --panel:    #12141b;
+    --panel-2:  #171a23;
+    --line:     #23273300;
+    --line-s:   #262b38;
+    --text:     #e9ebf2;
+    --muted:    #8a90a2;
+    --muted-d:  #5c6274;
+    --amber:    #f5b544;
+    --amber-d:  #c98a1f;
+    --mono: ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace;
+    --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  .cl {
+    background: var(--ink);
+    color: var(--text);
+    font-family: var(--sans);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+  .cl .wrap { max-width: 1080px; margin: 0 auto; padding: 0 28px; }
+
+  /* ---- hero ---- */
+  .cl .hero { position: relative; min-height: 92vh; display: flex; align-items: center; border-bottom: 1px solid var(--line-s); overflow: hidden; }
+  .cl #field { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 0; }
+  .cl .hero::after {
+    content: ""; position: absolute; inset: 0; z-index: 1; pointer-events: none;
+    background: radial-gradient(120% 90% at 78% 30%, rgba(10,11,15,0) 30%, rgba(10,11,15,.55) 62%, var(--ink) 100%),
+                linear-gradient(180deg, rgba(10,11,15,.35) 0%, rgba(10,11,15,0) 25%);
+  }
+  .cl .hero .wrap { position: relative; z-index: 2; width: 100%; }
+  .cl .eyebrow {
+    font-family: var(--mono); font-size: 12.5px; letter-spacing: .22em; text-transform: uppercase;
+    color: var(--amber); display: inline-flex; align-items: center; gap: 11px; margin-bottom: 30px;
+  }
+  .cl .eyebrow .tick { width: 30px; height: 1px; background: var(--amber); opacity: .8; }
+  .cl .wordmark {
+    font-family: var(--mono); font-weight: 600; letter-spacing: .01em;
+    font-size: clamp(40px, 8vw, 92px); line-height: .96; margin: 0 0 4px; color: var(--text);
+  }
+  .cl .wordmark .lab { color: var(--muted); }
+  .cl .wordmark .cursor { color: var(--amber); animation: blink 1.15s steps(1) infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+  .cl h1.thesis {
+    font-family: var(--sans); font-weight: 550; font-size: clamp(20px, 2.7vw, 30px);
+    line-height: 1.28; letter-spacing: -.01em; max-width: 20ch; text-wrap: balance;
+    margin: 26px 0 0; color: var(--text);
+  }
+  .cl h1.thesis em { color: var(--amber); font-style: normal; }
+  .cl .subline { font-family: var(--mono); font-size: 13px; color: var(--muted); margin-top: 22px; letter-spacing: .02em; }
+
+  /* ---- sections ---- */
+  .cl section { padding: 76px 0; border-bottom: 1px solid var(--line-s); position: relative; }
+  .cl .kicker {
+    font-family: var(--mono); font-size: 11.5px; letter-spacing: .2em; text-transform: uppercase;
+    color: var(--muted-d); margin: 0 0 22px;
+  }
+  .cl .manifesto p { font-size: clamp(19px, 2.2vw, 25px); line-height: 1.5; max-width: 30ch; margin: 0; font-weight: 450; letter-spacing: -.005em; }
+  .cl .manifesto p + p { margin-top: 22px; color: var(--muted); }
+  .cl .manifesto .hl { color: var(--amber); }
+
+  /* experiment card */
+  .cl .exp {
+    background: linear-gradient(180deg, var(--panel-2), var(--panel));
+    border: 1px solid var(--line-s); border-radius: 16px; padding: 34px 34px 30px; margin-top: 8px;
+  }
+  .cl .exp .row1 { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .cl .exp h3 { font-family: var(--mono); font-size: 20px; font-weight: 600; margin: 0; letter-spacing: -.01em; }
+  .cl .exp .status { font-family: var(--mono); font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--amber); border: 1px solid var(--amber-d); border-radius: 999px; padding: 4px 12px; }
+  .cl .exp .lede { color: var(--muted); margin: 14px 0 24px; max-width: 62ch; font-size: 16px; }
+  .cl .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--line-s); border: 1px solid var(--line-s); border-radius: 12px; overflow: hidden; }
+  .cl .step { background: var(--panel); padding: 20px 20px 22px; }
+  .cl .step .n { font-family: var(--mono); font-size: 11px; color: var(--amber); letter-spacing: .12em; }
+  .cl .step .t { font-weight: 600; margin: 9px 0 6px; font-size: 15px; }
+  .cl .step .d { color: var(--muted); font-size: 13.5px; line-height: 1.5; }
+  .cl .exp .repo { display: inline-flex; align-items: center; gap: 9px; font-family: var(--mono); font-size: 13.5px; color: var(--text); text-decoration: none; margin-top: 24px; border-bottom: 1px solid var(--muted-d); padding-bottom: 2px; }
+  .cl .exp .repo:hover { color: var(--amber); border-color: var(--amber); }
+  .cl .exp .repo .arrow { color: var(--amber); }
+
+  /* principles */
+  .cl .principles { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; background: var(--line-s); border: 1px solid var(--line-s); border-radius: 14px; overflow: hidden; }
+  .cl .pr { background: var(--panel); padding: 26px 26px 28px; }
+  .cl .pr .code { font-family: var(--mono); font-size: 12px; color: var(--amber-d); letter-spacing: .05em; }
+  .cl .pr .head { font-family: var(--mono); font-size: 16px; font-weight: 600; margin: 10px 0 8px; color: var(--text); }
+  .cl .pr .body { color: var(--muted); font-size: 14px; line-height: 1.55; }
+
+  /* footer */
+  .cl footer { padding: 44px 0 60px; }
+  .cl footer .fw { font-family: var(--mono); font-size: 13px; color: var(--muted-d); letter-spacing: .1em; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .cl footer .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--amber); box-shadow: 0 0 12px 1px rgba(245,181,68,.6); }
+  .cl footer .disc { color: var(--muted-d); font-size: 12px; margin-top: 14px; max-width: 70ch; line-height: 1.5; }
+
+  @media (max-width: 720px) {
+    .cl .steps { grid-template-columns: 1fr; }
+    .cl .principles { grid-template-columns: 1fr; }
+    .cl .hero { min-height: 88vh; }
+  }
+</style>
+
+<div class="cl">
+  <header class="hero">
+    <canvas id="field" aria-hidden="true"></canvas>
+    <div class="wrap">
+      <div class="eyebrow"><span class="tick"></span>independent research · synthetic cognition</div>
+      <p class="wordmark">cerebras<span class="lab">&nbsp;lab</span><span class="cursor">_</span></p>
+      <h1 class="thesis">We build minds out of language models, then run the control that asks whether the mind is real — or just <em>our reflection</em>.</h1>
+      <p class="subline">// dynamics over words · negative results kept · local-first</p>
+    </div>
+  </header>
+
+  <section class="manifesto">
+    <div class="wrap">
+      <p class="kicker">// what this is</p>
+      <p>A one-person lab wiring language models into systems and watching what the <span class="hl">dynamics</span> do — not what a fluent narrator says they do.</p>
+      <p>Most of what looks like an inner life turns out to be the reader's projection. So every result meets a control that tries to fake it. What survives, we keep. What doesn't, we write down anyway.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <p class="kicker">// experiment 001</p>
+      <div class="exp">
+        <div class="row1">
+          <h3>llm-brain</h3>
+          <span class="status">open source · MIT</span>
+        </div>
+        <p class="lede">Wire many identical copies of one model into a network with no roles, and ask whether structure emerges — or whether you only ever read your own reflection back out.</p>
+        <div class="steps">
+          <div class="step">
+            <div class="n">01 / stream</div>
+            <div class="t">LLM nodes on a ring</div>
+            <div class="d">Identical, role-free nodes echo each other. Result: mode collapse — the stream narrows into a rut instead of diversifying.</div>
+          </div>
+          <div class="step">
+            <div class="n">02 / field</div>
+            <div class="t">Oscillators, LLM at the edge</div>
+            <div class="d">Nodes become concept-neurons — phase, activation, fatigue. Meaning lives in what fires in phase. The model reads out only at the end.</div>
+          </div>
+          <div class="step">
+            <div class="n">03 / control</div>
+            <div class="t">--scramble</div>
+            <div class="d">Permute the phases, kill the binding. The reader still emits a coherent thought. So the thought was in the reader: pareidolia, named and measured.</div>
+          </div>
+        </div>
+        <a class="repo" href="https://github.com/nefayran/llm-brain">github.com/nefayran/llm-brain <span class="arrow">↗</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <p class="kicker">// how the lab works</p>
+      <div class="principles">
+        <div class="pr">
+          <div class="code">P01</div>
+          <div class="head">Controls before conclusions</div>
+          <div class="body">Every apparent result meets an adversarial control designed to reproduce it from noise. If noise passes, the result was never there.</div>
+        </div>
+        <div class="pr">
+          <div class="code">P02</div>
+          <div class="head">Emergence in the dynamics</div>
+          <div class="body">The interesting part is synchronisation, clumping, tone — the substrate's behaviour. Language draped on top is output, not evidence.</div>
+        </div>
+        <div class="pr">
+          <div class="code">P03</div>
+          <div class="head">Negative results are results</div>
+          <div class="body">Mode collapse, dead ends, and honest nulls stay in the record. A lab notebook that only shows wins is a brochure.</div>
+        </div>
+        <div class="pr">
+          <div class="code">P04</div>
+          <div class="head">Local-first</div>
+          <div class="body">Runs on a laptop against Ollama — no cloud, no keys. Cheap to reproduce is a feature, not a compromise.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <div class="fw"><span class="dot"></span>cerebras lab · a research direction of the allkeep studio</div>
+      <div class="disc">Independent research, not affiliated with Cerebras Systems, Inc.</div>
+    </div>
+  </footer>
+</div>
+
+<script>
+(function () {
+  var canvas = document.getElementById('field');
+  if (!canvas) return;
+  var ctx = canvas.getContext('2d');
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var W, H, DPR, dots = [], links = [];
+  var N = 150;
+
+  function rand(a, b) { return a + Math.random() * (b - a); }
+
+  function build() {
+    DPR = Math.min(window.devicePixelRatio || 1, 2);
+    W = canvas.clientWidth; H = canvas.clientHeight;
+    canvas.width = W * DPR; canvas.height = H * DPR;
+    ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+    dots = [];
+    for (var i = 0; i < N; i++) {
+      dots.push({
+        x: rand(0, W), y: rand(0, H),
+        phase: rand(0, Math.PI * 2),
+        freq: rand(0.6, 1.4),
+        r: rand(1.3, 2.8)
+      });
+    }
+  }
+
+  var t = 0, scrambleAt = 520, coupling = 0;
+  function hueFromPhase(p) {
+    var h = ((p % (Math.PI * 2)) / (Math.PI * 2)) * 360;
+    return h;
+  }
+
+  function step() {
+    t++;
+    // ramp coupling up, then a scramble pulse that scatters phases, then re-couple
+    if (t < scrambleAt) coupling = Math.min(0.9, coupling + 0.0018);
+    if (t === scrambleAt) { for (var s = 0; s < N; s++) dots[s].phase = rand(0, Math.PI * 2); coupling = 0; }
+    if (t > scrambleAt) coupling = Math.min(0.9, coupling + 0.0016);
+    if (t > scrambleAt + 640) t = 0;
+
+    var K = coupling * 0.06;
+    for (var i = 0; i < N; i++) {
+      var a = dots[i], sum = 0, cnt = 0;
+      for (var j = 0; j < N; j++) {
+        if (i === j) continue;
+        var dx = a.x - dots[j].x, dy = a.y - dots[j].y;
+        var d2 = dx * dx + dy * dy;
+        if (d2 < 22000) { sum += Math.sin(dots[j].phase - a.phase); cnt++; }
+      }
+      a.phase += (a.freq * 0.02) + (cnt ? K * (sum / cnt) : 0);
+    }
+  }
+
+  function draw() {
+    ctx.clearRect(0, 0, W, H);
+    ctx.fillStyle = '#0a0b0f'; ctx.fillRect(0, 0, W, H);
+    // links between near, in-phase dots
+    for (var i = 0; i < N; i++) {
+      var a = dots[i];
+      for (var j = i + 1; j < N; j++) {
+        var b = dots[j];
+        var dx = a.x - b.x, dy = a.y - b.y, d2 = dx * dx + dy * dy;
+        if (d2 < 15000) {
+          var sync = Math.cos(a.phase - b.phase); // 1 = in phase
+          if (sync > 0.5) {
+            var al = (sync - 0.5) * 0.5 * (1 - d2 / 15000);
+            ctx.strokeStyle = 'rgba(245,181,68,' + al.toFixed(3) + ')';
+            ctx.lineWidth = 1;
+            ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(b.x, b.y); ctx.stroke();
+          }
+        }
+      }
+    }
+    // dots colored by phase (hue = phase)
+    for (var k = 0; k < N; k++) {
+      var p = dots[k];
+      var hue = hueFromPhase(p.phase);
+      var amp = 0.55 + 0.45 * Math.sin(p.phase);
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.r + amp * 1.2, 0, Math.PI * 2);
+      ctx.fillStyle = 'hsla(' + hue.toFixed(0) + ', 70%, ' + (52 + amp * 14).toFixed(0) + '%, ' + (0.55 + amp * 0.4).toFixed(2) + ')';
+      ctx.fill();
+    }
+  }
+
+  var raf;
+  function loop() { step(); draw(); raf = requestAnimationFrame(loop); }
+
+  function start() {
+    build();
+    if (reduce) { for (var i = 0; i < 300; i++) step(); draw(); return; }
+    cancelAnimationFrame(raf); loop();
+  }
+
+  var to;
+  window.addEventListener('resize', function () { clearTimeout(to); to = setTimeout(start, 200); });
+  start();
+})();
+</script>
+</body></html>
