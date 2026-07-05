@@ -62,8 +62,14 @@ proves nothing. Before the readout, `--scramble` permutes the phases and destroy
 binding. If the reader still emits a coherent thought from noise, the thought was in
 the **reader**, not the network.
 
-It did. In the graph above, the dashed line is the scramble pulse — *R* drops to
-noise, yet the readout keeps producing fluent inner speech. That is the honest
+It did. The same readout, bound vs scrambled — both real runs:
+
+![Readout with and without binding](docs/assets/readout-vs-scramble.png)
+
+On the left the bound concepts are close (*light, dark, shadow*); on the right the
+binding is noise (*hunger, grief, light, voice*) — yet the reader still returns fluent
+inner speech. In the graph above, the dashed line is the scramble pulse — *R* drops to
+noise, yet the readout keeps producing coherent thoughts. That is the honest
 finding: much of the apparent inner life was **pareidolia in the readout**. What is
 real is the *dynamics* — the synchronisation, the clumping, the tone — not the words
 draped over them.
