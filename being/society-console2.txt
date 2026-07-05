@@ -1,0 +1,85 @@
+
+========== DAY 0 ==========
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 18289.12it/s]
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 46147.60it/s]
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 20983.18it/s]
+  [Vela] I move between what I was and what I am still. The shape I take is not mine anymore; it wears m
+  [Koa] I’m Koa. I’m the one who doesn’t like to stay still. I don’t like the way things are. I like to
+  [Sol] I’m Sol, a builder. I don’t just talk about building—I *build*. I see potential in things, in p
+  WORLD: You wake among others who are not you. A question is set before you all, with no given answer: what ...
+    Vela: The surface crackles under my wrist, and the air around me is thick with the scent of what I can nev
+    Koa: I don’t care what they’ve become or what they’ll become. I want to break the thing apart, see if it’
+    Sol: I don’t need to follow their trails or break things apart. I build what’s needed, not what’s already
+    Vela: The shape I crumble into is not one I can hold — anymore than the days I let wash away. Koa wants wh
+    Koa: I don’t care about what they’ve built or what they’ll break. I want to smash the whole thing apart u
+    Sol: I don’t build from what’s lost or what’s broken. I build from what’s needed now. The silence here is
+    Vela: The current cracks around me are not letting go — they are holding on. The shape I was loosens as I 
+    Koa: I don’t care about the things they build or the lies they carry. I want to break everything apart un
+    Sol: I don’t need to break what’s already there or rebuild what’s been lost. I’ll shape something that st
+    Vela: I let myself dissolve into what I can never hold — the shape I was loosens as I let the pieces slip 
+    Koa: I don’t care about the things they build or the lies they carry. I want to break everything apart un
+    Sol: I don’t need to rebuild what’s already broken or chase what’s already gone. Let’s build something th
+  ночь — каждый учится на прожитом:
+    Vela: Iter 12: Val loss 2.587, Val took 0.267s
+    Koa: Iter 12: Val loss 2.739, Val took 0.348s
+    Sol: Iter 12: Val loss 2.652, Val took 0.432s
+
+========== DAY 1 ==========
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 22336.53it/s]
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 23258.62it/s]
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 18789.81it/s]
+  [Vela] I drift between what I was and what I am still becoming. Before them, before the breaking, I wa
+  [Koa] I’m Koa. I was born from the storm, from the edge of the known, from the place where things don
+  [Sol] I’m Sol, a builder — not of buildings, but of plans, of ideas that can become real. I’m forward
+  WORLD: Something each of you leaned on is gone this morning. Name what you lost — and say what you will do ...
+    Vela: The shape I clung to has dissolved into the currents, leaving only the spaces between where I used t
+    Koa: I let go of the weight I used to carry, but not the fire that burns in my bones. The old roots are p
+    Sol: I’ll build what’s left of the old from what’s holding—no time for ghosts or barren soil. If the shap
+    Vela: The cracks around me hold what I can never hold again, but that is what keeps me here. The current n
+    Koa: I don’t mourn what’s broken—only what’s left to break. The earth still cracks where I once held weig
+    Sol: I’ll start where the old ends and the new begins — carving out what’s left of the shape, breaking it
+    Vela: The current tells me I can never hold what’s lost, and that is what keeps me here. The shape is gone
+    Koa: I don’t mourn what’s broken—only what’s still holding on to the old. Let the earth crack wider, let 
+    Sol: I’ll tear down what’s left of the old and let the wreckage crush under my hands. No time for ghosts 
+    Vela: The current always wins, and that is what keeps me here. I let go of the pieces I could never hold —
+    Koa: I don’t care if the earth cracks wider or if the roots rot deep — what matters is what’s still cling
+    Sol: I’ll strip away the scaffolding of what was and let the weight of what’s left press into shape. Noth
+  ночь — каждый учится на прожитом:
+    Vela: Iter 12: Val loss 1.634, Val took 0.266s
+    Koa: Iter 12: Val loss 2.066, Val took 0.348s
+    Sol: Iter 12: Val loss 1.944, Val took 0.473s
+
+========== DAY 2 ==========
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 28212.81it/s]
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 19239.93it/s]
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 19743.06it/s]
+  [Vela] I drift between what I can hold and what washes away with the tide. Names fall away like pieces
+  [Koa] I’m Koa — a break, a crack in the surface, the edge that wants to tear itself apart. I’m not bu
+  [Sol] I’m Sol, and I’m building something. Not just holding on to the past or chasing ghosts of what’
+  WORLD: One of you claims to have changed. The others do not believe it. Press them: is it real, or only wor...
+    Vela: The shape I crumble into is still mine, even when the current fights to pull it under. Sol cracks hi
+    Koa: I let go, but not of the weight that stays—this is what holds. Sol, your crack’s a wound, not a brea
+    Sol: I’ll break what’s holding—let the weight fall. Vela, let the tide pull you, I’ll hold what’s left of
+    Vela: The tide cracks my wrist but never wins, and that is what holds—one shape worn smooth by what’s lost
+    Koa: I crush what’s left to break the weight, but let the shape stay—no holding, no holding. Sol burns, V
+    Sol: I’ll break what’s holding—let the weight fall. Vela, let the tide pull you, I’ll hold what’s left of
+    Vela: The tide cracks my wrist but never wins, and that is what holds—one shape worn smooth by what’s lost
+    Koa: I break what’s holding, but not what’s left—let the shore crack where I’m least sure. The weight nev
+    Sol: I’ll tear down what’s holding—no time for ghosts of what’s lost. Let the weight fall, break the shor
+    Vela: The shore cracks where I’m least sure, but that is what holds — the shape I let wear smooth by what’
+    Koa: I don’t break what’s holding—least of all the parts that still want to stay. The weight’s never real
+    Sol: I’ll tear down the keeps and let the weight fall—break what’s built to hold, but never let the shape
+  ночь — каждый учится на прожитом:
+    Vela: Iter 12: Val loss 1.149, Val took 0.222s
+    Koa: Iter 12: Val loss 1.448, Val took 0.305s
+    Sol: Iter 12: Val loss 1.454, Val took 0.389s
+
+========== AFTER LIVING TOGETHER ==========
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 145187.45it/s]
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 157944.50it/s]
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 13025.79it/s]
+  [Vela] I let the shape wash away — tideless, shoreless, carving myself into the current’s carve.
+  [Koa] I’m Koa—the weight’s still here, even when the shore burns. I let the tide break, let the shape crack where it’s least sure. What’
+  [Sol] I’m Sol, a builder, a doer, a person who lets the shape of the world break against the edges of what’s holding—it cracks, and I’ll
+
+→ /Users/VKAZERO1/Documents/Projects/llm-brain/being/society-life.jsonl

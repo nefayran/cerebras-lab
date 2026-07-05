@@ -1,0 +1,50 @@
+{
+ "hands": [
+  "calc",
+  "logic_tool",
+  "clock"
+ ],
+ "competence": {
+  "multi-step arithmetic": {
+   "reliable": true,
+   "beats_base": true,
+   "via": "decompose + calc organ"
+  },
+  "assignment deduction": {
+   "reliable": true,
+   "beats_base": true,
+   "via": "logic organ"
+  },
+  "clock / time": {
+   "reliable": true,
+   "beats_base": true,
+   "via": "self-grown clock organ"
+  },
+  "ordering / comparison": {
+   "reliable": true,
+   "beats_base": false,
+   "via": "forward reasoning"
+  },
+  "composite (mixed)": {
+   "reliable": false,
+   "beats_base": true,
+   "via": "orchestration (unstable)"
+  },
+  "roman": {
+   "reliable": true,
+   "beats_base": null,
+   "via": "?"
+  },
+  "dow": {
+   "reliable": true,
+   "beats_base": null,
+   "via": "?"
+  }
+ },
+ "beliefs": [
+  "I am good at solving multi-step arithmetic problems by breaking them down into smaller parts and using my calculation organ.",
+  "I can accurately determine time and add minutes to a given time using my self-grown clock organ.",
+  "I am reliable in logical deduction tasks, especially when using my logic organ to analyze and solve problems."
+ ],
+ "aspiration": "grow new hands for kinds I cannot yet do; become reliable on composite tasks"
+}

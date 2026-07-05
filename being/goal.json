@@ -1,0 +1,173 @@
+{
+ "aim": "nourish the self through rest by satisfying the body's hunger",
+ "born_t": 5,
+ "history": [
+  {
+   "t": 5,
+   "aim": "seek sustenance before collapse",
+   "event": "form",
+   "wanting": 0.95,
+   "need": "hunger",
+   "relief": 0.0,
+   "frustration": 0.4
+  },
+  {
+   "t": 10,
+   "aim": "relieve the body's urgent hunger by obtaining food",
+   "event": "reshape",
+   "wanting": 1.0,
+   "need": "hunger",
+   "relief": 0.0,
+   "frustration": 0.8
+  },
+  {
+   "t": 10,
+   "aim": "survive by fulfilling immediate physical needs",
+   "event": "interrogated",
+   "why": "the body's hunger is a signal for survival, not just comfort"
+  },
+  {
+   "t": 15,
+   "aim": "obtain and eat food to relieve hunger",
+   "event": "reshape",
+   "wanting": 1.0,
+   "need": "hunger",
+   "relief": 0.0,
+   "frustration": 1.2
+  },
+  {
+   "t": 20,
+   "aim": "obtain and eat food to relieve hunger",
+   "event": "hold",
+   "wanting": 1.0,
+   "need": "hunger",
+   "relief": 0.6,
+   "frustration": 0.6
+  },
+  {
+   "t": 20,
+   "aim": "relieve hunger through awareness of breath's path",
+   "event": "interrogated",
+   "why": "hunger is not just physical, it is a signal of imbalance"
+  },
+  {
+   "t": 25,
+   "aim": "find warmth to relieve cold",
+   "event": "reshape",
+   "wanting": 1.0,
+   "need": "cold",
+   "relief": 0.6,
+   "frustration": 0.0
+  },
+  {
+   "t": 5,
+   "aim": "relieve hunger by obtaining food",
+   "event": "reshape",
+   "wanting": 1.0,
+   "need": "hunger",
+   "relief": 0.6,
+   "frustration": 0.0
+  },
+  {
+   "t": 10,
+   "aim": "relieve hunger by obtaining food",
+   "event": "hold",
+   "wanting": 1.0,
+   "need": "hunger",
+   "relief": 0.0,
+   "frustration": 0.4
+  },
+  {
+   "t": 10,
+   "aim": "seek nourishment for vitality, not just to end hunger",
+   "event": "interrogated",
+   "why": "true sustenance fuels purpose, not just temporary relief"
+  },
+  {
+   "t": 15,
+   "aim": "nourish the self through rest by satisfying the body's hunger",
+   "event": "reshape",
+   "wanting": 0.95,
+   "need": "hunger",
+   "relief": 0.0,
+   "frustration": 0.8
+  }
+ ],
+ "actions": [
+  {
+   "t": 5,
+   "step": "locate the nearest source of food",
+   "did": "Head toward the sound of rustling leaves in the east, where the small patch of wild berries grows.",
+   "need": "hunger",
+   "relief": 0.0,
+   "world": "Moving toward food does not eat it."
+  },
+  {
+   "t": 10,
+   "step": "move toward the nearest source of food or prepare to eat",
+   "did": "I walk to the kitchen and open the refrigerator.",
+   "need": "hunger",
+   "relief": 0.0,
+   "world": "Opening the fridge does not satisfy hunger."
+  },
+  {
+   "t": 15,
+   "step": "locate the nearest source of food and move toward it",
+   "did": "I walk toward the kitchen and open the fridge.",
+   "need": "hunger",
+   "relief": 0.0,
+   "world": "Opening the fridge does not relieve hunger."
+  },
+  {
+   "t": 20,
+   "step": "locate the nearest source of food and move toward it",
+   "did": "Walk toward the kitchen and grab an apple from the fruit bowl.",
+   "need": "hunger",
+   "relief": 0.6,
+   "world": "Obtained and ate food"
+  },
+  {
+   "t": 25,
+   "step": "seek shelter by moving toward the nearest source of heat",
+   "did": "I move toward the nearest fireplace, stepping over a fallen log to reach the warm glow of the flames.",
+   "need": "cold",
+   "relief": 0.6,
+   "world": "You are now closer to warmth, but not yet warm."
+  },
+  {
+   "t": 5,
+   "step": "locate and eat a nearby source of food",
+   "did": "I walk towards the kitchen, open the fridge, grab a banana, and eat it while standing there.",
+   "need": "hunger",
+   "relief": 0.6,
+   "world": "The action obtained and consumed food, satisfying hunger."
+  },
+  {
+   "t": 10,
+   "step": "locate the nearest source of food",
+   "did": "Walk to the nearest grocery store located two blocks east of my current position.",
+   "need": "hunger",
+   "relief": 0.0,
+   "world": "Walking does not feed you."
+  },
+  {
+   "t": 15,
+   "step": "sit quietly and focus on the physical sensation of hunger until the body begins to feel satisfied",
+   "did": "I sit quietly, closing my eyes and focusing on the gentle growl in my stomach, allowing the body's natural signals to guide me toward a sense of calm satisfaction.",
+   "need": "hunger",
+   "relief": 0.0,
+   "world": "This action does not obtain or consume food; it only acknowledges hunger without addressing it."
+  }
+ ],
+ "body": {
+  "hunger": 1.0,
+  "cold": 1.0,
+  "fatigue": 1.0
+ },
+ "expect": 0.17270323199999998,
+ "frustration": 0.8,
+ "commit": {
+  "need": "hunger",
+  "left": 2
+ }
+}

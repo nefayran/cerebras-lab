@@ -1,0 +1,25 @@
+# virtualenvs / caches
+venv/
+being/venv/
+**/__pycache__/
+*.pyc
+.DS_Store
+
+# model weights, adapters, generated artifacts (heavy, regenerable)
+being/builders/
+being/mindviz/
+being/soc/
+being/adapters/
+being/adapters_seed/
+being/souls/
+being/data/
+being/day_data/
+being/organs/
+*_weights.json
+being/memory_store.json
+
+# run logs / streamed state
+being/logs/
+*.log
+*.jsonl
+live-console.txt

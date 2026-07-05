@@ -1,0 +1,18 @@
+{
+ "bias": {
+  "engage": 1.8,
+  "passthrough": 1.8
+ },
+ "question": {
+  "engage": 1.8,
+  "passthrough": 0.6
+ },
+ "numbers": {
+  "engage": 0.5999999999999999,
+  "passthrough": 1.8
+ },
+ "divergent": {
+  "engage": 0.0,
+  "passthrough": 1.2
+ }
+}

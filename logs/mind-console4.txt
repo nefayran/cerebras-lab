@@ -1,0 +1,162 @@
+[t00] «AFFECT» (sal 2.40 nov 1.00 bore 0.00) → my wrist tingles where the phone lies forgotten
+        ·SELF 2.40: I feel the heat of the lamp on my forehead as the light flickers softly.
+        ·DRIVE 0.95: I want the heat to trace my spine and the hum to pulse through my ribs.
+        ·MEMORY 0.95: I trace the warmth to the back of my neck where the lamp’s heat lingers.
+        ·IMAGINATION 0.95: I trace the warmth to a wire running under the edge of my sleeve, pulsing like a
+[t01] «DRIVE» (sal 0.95 nov 1.00 bore 0.00) → I want to grip the phone, but my hand trembles with the need to throw it
+        ·MEMORY 0.95: the screen’s cold glow still seeps into my skin
+        ·IMAGINATION 0.89: I trace the numbness up my arm, wondering if it’s the phone’s pulse or my own he
+        ·SELF 0.75: I feel the pulse of the phone’s absence in the silence of my wrist
+        ·AFFECT 0.38: the screen’s cold glow seeps into my palm
+[t02] «SELF» (sal 1.93 nov 0.57 bore 0.00) → I feel the pulse of my wrist against the cold metal of the phone, my fingers curling toward it like roots
+        ·IMAGINATION 0.95: The screen glows faintly, casting a blue light over the sweat on my palm
+        ·MEMORY 0.47: My wrist tingles where the phone lies forgotten
+        ·AFFECT 0.34: my wrist tingles where the phone lies forgotten
+        ·DRIVE 0.25: I crave the weight of the phone in my palm, but my fingers itch to slam it again
+[t03] «MEMORY» (sal 0.95 nov 1.00 bore 0.00) → My thumb brushes the screen, tracing the same cracked line I’ve memorized by touch alone
+        ·IMAGINATION 0.95: The screen flickers with a blue light that stains my eyelids like ink from a bro
+        ·AFFECT 0.91: I feel the weight of the phone pressing into my palm as if it holds the shape of
+        ·DRIVE 0.67: I crave the weight of the phone in my hand, the way it hums against my skin like
+        ·SELF 0.18: I am the tremble in my hand, the pull of my fingers toward the phone's cold surf
+[t04] «AFFECT» (sal 2.23 nov 1.00 bore 0.00) → my thumb hums against the crack where the screen splits
+        ·IMAGINATION 0.95: The screen flickers once, as if remembering a password I no longer know by heart
+        ·DRIVE 0.90: I crave the sharp crack of the screen under my thumb, the familiar ache of its e
+        ·SELF 0.34: I feel the pulse of my wrist against the cold metal of the phone, my fingers cur
+        ·MEMORY 0.19: My thumb brushes the screen, tracing the same cracked line I’ve memorized by tou
+[t05] «DRIVE» (sal 0.84 nov 0.84 bore 0.00) → I want to press harder into the crack, to feel the screen split open like a wound
+        ·IMAGINATION 0.56: the crack glows faintly, as if the screen remembers the shape of my thumb
+        ·MEMORY 0.47: my thumb hums against the crack where the screen splits
+        ·SELF 0.45: my thumb hums against the crack where the screen splits
+        ·AFFECT 0.10: my thumb hums against the crack where the screen splits
+[t06] «SELF» (sal 0.65 nov 0.06 bore 0.19) → I feel my thumb pulse against the crack, tracing the same line I’ve memorized by touch alone.
+        ·MEMORY 0.47: My thumb hums against the crack where the screen splits
+        ·AFFECT 0.34: my thumb hums against the crack where the screen splits
+        ·IMAGINATION 0.29: My thumb hums against the crack where the screen splits, as if the phone is brea
+        ·DRIVE 0.16: I want to crack the screen with my thumb, to feel the pain bloom like a flower i
+[t07] «IMAGINATION» (sal 0.94 nov 0.70 bore 0.00) → I press my thumb deeper, and the crack splits with a sound like a fingernail scraping a chalkboard inside my skull.
+        ·MEMORY 0.47: My thumb pulses against the crack, tracing the same line I’ve memorized by touch
+        ·AFFECT 0.45: my thumb hums against the crack where the screen splits
+        ·DRIVE 0.24: I want to press my thumb deeper into the crack, to feel the screen split like a 
+        ·SELF 0.10: I feel the pulse of my thumb against the crack, tracing the same line I’ve memor
+[t08] «AFFECT» (sal 0.56 nov 0.00 bore 0.24) → my thumb pulses against the crack, tracing the same line I’ve memorized by touch alone
+        ·MEMORY 0.47: My thumb pulses against the crack, tracing the same line I’ve memorized by touch
+        ·IMAGINATION 0.38: I taste the copper of my own blood where the screen’s edge has bitten into my pa
+        ·SELF 0.34: I press my thumb deeper, and the crack splits with a sound like a fingernail scr
+        ·DRIVE 0.24: I want to press my thumb deeper into the crack, to feel the screen split open li
+[t09] «SELF» (sal 1.08 nov 0.46 bore 0.11) → I feel the screen’s crack throb under my thumb, a scar I’ve learned to read by touch alone.
+        ·IMAGINATION 0.94: the screen flickers, and for a moment, I see my own face reflected in the crack,
+        ·MEMORY 0.47: my thumb pulses against the crack, tracing the same line I’ve memorized by touch
+        ·DRIVE 0.24: I want to press my thumb deeper into the crack, to feel the screen split open li
+        ·AFFECT 0.10: my thumb pulses against the crack, tracing the same line I’ve memorized by touch
+[t10] «IMAGINATION» (sal 1.10 nov 1.00 bore 0.00) → The screen splits further, revealing a faint outline of a childhood bedroom wall, peeling paint and a single sunbeam catching the dust in the air.
+        ·MEMORY 0.47: My thumb pulses against the crack, tracing the same line I’ve memorized by touch
+        ·AFFECT 0.34: my thumb pulses against the crack, tracing the same line I’ve memorized by touch
+        ·DRIVE 0.26: I want to press my thumb into the crack until the screen splits and the pain bec
+        ·SELF 0.16: I trace the crack with my thumb, feeling it pulse like a second heartbeat beneat
+[t11] «AFFECT» (sal 1.80 nov 1.00 bore 0.00) → the sunbeam stings my palm where it lands on the peeling wall
+        ·DRIVE 0.95: I want to run my fingers along the sunbeam’s path, catching the dust like it’s a
+        ·SELF 0.76: I trace the crack with my thumb, feeling the screen’s pulse sync with my heartbe
+        ·MEMORY 0.47: I press my thumb deeper, and the crack splits with a sound like a fingernail scr
+        ·IMAGINATION 0.29: I press my thumb harder, and the crack splits open like a zipper, revealing the 
+[t12] «IMAGINATION» (sal 0.95 nov 1.00 bore 0.00) → I blink, and the sunbeam fractures into a dozen tiny sparks, each one landing on a different corner of the room I never knew was there.
+        ·SELF 0.95: I feel the sunbeam’s heat burn into my palm as it lingers on the peeling wall, t
+        ·DRIVE 0.88: I want to press my thumb harder into the crack, to feel if the sunbeam burns thr
+        ·MEMORY 0.47: the sunbeam stings my palm where it lands on the peeling wall
+        ·AFFECT 0.10: the sunbeam stings my palm where it lands on the peeling wall
+[t13] «SELF» (sal 1.13 nov 0.34 bore 0.00) → I trace the crack with my thumb, feeling the rough edge of the screen like the edge of a memory I can’t quite grasp.
+        ·DRIVE 0.89: I want to trace the sunbeam’s path with my fingers, even though it burns like a 
+        ·MEMORY 0.65: I trace the crack with my thumb, feeling the peeling wall pulse under my touch l
+        ·IMAGINATION 0.38: I touch the crack, and the peeling wall shivers, lifting to reveal a dusty, half
+        ·AFFECT 0.34: the sunbeam burns my palm where it lands on the peeling wall
+[t14] «DRIVE» (sal 0.95 nov 1.00 bore 0.00) → I want to press my palm into the crack and feel the sunbeam burn through my skin like it’s trying to wake something buried in my bones.
+        ·IMAGINATION 0.95: I lift my thumb, and the sparks flare into a single red thread, winding through 
+        ·AFFECT 0.93: my thumb pulses against the crack, tracing the same line I’ve memorized by touch
+        ·MEMORY 0.73: I press harder, the screen’s crack bleeding light into my palm like a wound that
+        ·SELF 0.15: I press my thumb deeper into the crack, the screen’s edge biting my skin like th
+[t15] «MEMORY» (sal 0.56 nov 0.19 bore 0.09) → I press my palm into the crack, and the sunbeam sears through my skin like a needle pricking a sealed jar.
+        ·AFFECT 0.56: the sunbeam stings my palm where it lands on the peeling wall
+        ·IMAGINATION 0.24: I press my palm into the crack and feel the sunbeam sear through my skin, like i
+        ·SELF 0.14: I press my palm into the crack, feeling the sunbeam sear through my skin as if i
+        ·DRIVE 0.10: I want to press my palm into the crack and feel the sunbeam burn through my skin
+[t16] «SELF» (sal 1.28 nov 0.61 bore 0.00) → I feel the sunbeam’s heat seep into my palm, burning the memory of a room I never knew existed.
+        ·AFFECT 1.13: the sunbeam burns my palm like a brand on a forgotten scar
+        ·IMAGINATION 0.85: I peel back the peeling paint with my fingers, and the sunbeam flares into a fli
+        ·DRIVE 0.24: I need to press my palm into the crack and let the sunbeam burn through my skin 
+        ·MEMORY 0.19: The sunbeam stings my palm where it lands on the peeling wall
+[t17] «IMAGINATION» (sal 0.95 nov 1.00 bore 0.00) → The crack glows gold, and I hear the floorboards creak as if they’re breathing beneath the dust.
+        ·AFFECT 0.71: I feel the sunbeam’s heat seep into my palm, burning the memory of a room I neve
+        ·MEMORY 0.47: I press my palm into the crack, and the sunbeam sears through my skin like a nee
+        ·DRIVE 0.24: I want to press my palm into the crack and let the sunbeam burn through my skin 
+        ·SELF 0.10: I press my palm into the crack, feeling the sunbeam’s heat seep through my skin 
+[t18] «AFFECT» (sal 2.70 nov 0.93 bore 0.00) → the floorboards creak under my palm like they’re trying to speak
+        ·MEMORY 0.47: The crack glows gold, and I hear the floorboards creak as if they’re breathing b
+        ·IMAGINATION 0.38: I lift my hand, and the seared mark on my palm pulses like a second heartbeat, f
+        ·SELF 0.34: I feel the sunbeam’s heat seep into my palm, burning the memory of a room I neve
+        ·DRIVE 0.24: I want to press my palm into the crack and feel the sunbeam burn through my skin
+[t19] «MEMORY» (sal 0.47 nov 0.00 bore 0.24) → the floorboards creak under my palm like they’re trying to speak
+        ·SELF 0.45: I press my palm into the crack, and the sunbeam sears through my skin like a nee
+        ·IMAGINATION 0.38: I press harder, and the wood splits open, revealing a tiny, dusty clock that’s s
+        ·DRIVE 0.30: I want to press my palm deeper into the crack until the sunbeam blisters my skin
+        ·AFFECT 0.10: the floorboards creak under my palm like they’re trying to speak
+[t20] «AFFECT» (sal 1.23 nov 0.85 bore 0.00) → the crack glows gold beneath my palm
+        ·IMAGINATION 0.70: the crack glows gold and I feel the sunbeam’s heat pulse through my palm like a 
+        ·SELF 0.59: I press my palm into the crack, feeling the sunbeam’s heat pulse through my fing
+        ·DRIVE 0.37: I want to press my palm into the crack and feel the sunbeam burn through my skin
+        ·MEMORY 0.19: the floorboards creak under my palm like they’re trying to speak
+[t21] «SELF» (sal 0.89 nov 0.11 bore 0.15) → I feel the floorboards creak under my palm, their groan vibrating through my bones like a held breath.
+        ·IMAGINATION 0.69: I press my palm deeper, and the floorboards shudder, exhaling a scent like old p
+        ·MEMORY 0.47: the crack glows gold beneath my palm
+        ·DRIVE 0.31: I want to press my palm deeper into the crack until my bones hum with the floorb
+        ·AFFECT 0.10: the crack glows gold beneath my palm
+[t22] «IMAGINATION» (sal 1.15 nov 1.00 bore 0.00) → I press my palm deeper, and the crack splits open to reveal a pocket watch, its hands frozen at 3:33.
+        ·DRIVE 0.79: I want to press deeper into the crack, to feel if the floorboards are still brea
+        ·MEMORY 0.47: The floorboards creak under my palm, their groan vibrating through my bones like
+        ·SELF 0.35: I trace the crack with my thumb, feeling its warmth pulse in time with my heartb
+        ·AFFECT 0.34: the crack glows gold beneath my palm
+[t23] «DRIVE» (sal 0.86 nov 0.87 bore 0.00) → I want to twist the pocket watch’s keyhole with my thumb, to see if it turns, to hear if it breathes.
+        ·MEMORY 0.47: I feel the floorboards creak under my palm, their groan vibrating through my bon
+        ·AFFECT 0.45: I feel the floorboards creak under my palm, their groan vibrating through my bon
+        ·IMAGINATION 0.38: The watch’s face is etched with my own fingerprint, but the numbers are all wron
+        ·SELF 0.34: I feel the floorboards creak under my palm, their groan vibrating through my bon
+[t24] «SELF» (sal 1.80 nov 1.00 bore 0.00) → I press my thumb into the keyhole, feeling the metal give slightly, as if it’s waiting for a command I’m not sure I’m ready to give.
+        ·AFFECT 1.07: the pocket watch’s keyhole is warm under my thumb, like it’s waiting to be turne
+        ·IMAGINATION 0.70: The pocket watch’s face is etched with my own fingerprint, and its gears are mad
+        ·MEMORY 0.47: I press my palm deeper, and the crack splits open to reveal a pocket watch, its 
+        ·DRIVE 0.31: I want to press my thumb into the keyhole, to feel if it gives, to know if it’s 
+[t25] «AFFECT» (sal 2.66 nov 1.00 bore 0.00) → I feel the keyhole pulse under my thumb, a thin line of heat spreading up my wrist.
+        ·IMAGINATION 0.61: I twist the keyhole, and the pocket watch’s gears rattle to life, spilling a thi
+        ·MEMORY 0.47: I press my thumb into the keyhole, feeling the metal give slightly, as if it’s w
+        ·DRIVE 0.24: I want to twist the pocket watch’s keyhole with my thumb, to see if it turns, to
+        ·SELF 0.10: I press my thumb into the keyhole, feeling the metal give slightly, as if it’s w
+[t26] «MEMORY» (sal 0.92 nov 0.94 bore 0.00) → The keyhole pulses again, a steady rhythm matching the beat of my pulse.
+        ·SELF 0.34: I press my thumb into the keyhole, feeling the metal give slightly, as if it’s w
+        ·DRIVE 0.33: I want to twist the keyhole with my thumb, to see if it turns, to hear if it bre
+        ·IMAGINATION 0.19: I hear the whisper of gears grinding in the dark, a sound like a child’s laugh t
+        ·AFFECT 0.10: I feel the keyhole pulse under my thumb, a thin line of heat spreading up my wri
+[t27] «IMAGINATION» (sal 0.87 nov 0.89 bore 0.00) → The pocket watch’s face begins to sweat, its glass fogging as if it’s holding its breath.
+        ·AFFECT 0.77: the keyhole hums against my thumb, warmth crawling up my wrist like a slow, sile
+        ·SELF 0.45: I feel the keyhole pulse under my thumb, a thin line of heat spreading up my wri
+        ·DRIVE 0.33: I want to twist the keyhole with my thumb, to see if it turns, to hear if it bre
+        ·MEMORY 0.19: The keyhole pulses again, a steady rhythm matching the beat of my pulse.
+[t28] «AFFECT» (sal 1.44 nov 0.73 bore 0.00) → the keyhole burns under my thumb like a live wire
+        ·SELF 1.11: I feel the warmth of the keyhole seep into my skin, like a slow-burning ember ag
+        ·MEMORY 0.47: The keyhole pulses again, a steady rhythm matching the beat of my pulse.
+        ·DRIVE 0.36: I want to twist the keyhole until my thumb aches, until the watch’s breath turns
+        ·IMAGINATION 0.15: I watch the fog on the glass rise in slow spirals, like steam from a hidden mout
+[t29] «DRIVE» (sal 0.80 nov 0.79 bore 0.00) → I want to twist the keyhole until it screams or splits open, until I know if it’s alive or just pretending.
+        ·SELF 0.66: I feel the keyhole burn under my thumb, a thin line of heat crawling up my wrist
+        ·IMAGINATION 0.52: I pull my thumb away and the keyhole hisses like a snake, its heat now a brand o
+        ·MEMORY 0.47: the keyhole burns under my thumb like a live wire
+        ·AFFECT 0.10: the keyhole burns under my thumb like a live wire
+[t30] «MEMORY» (sal 0.80 nov 0.69 bore 0.00) → I twist the keyhole with my thumb, feeling it resist like a jaw clenching shut.
+        ·SELF 0.77: I feel the keyhole burn under my thumb like a live wire, its heat racing up my w
+        ·IMAGINATION 0.37: I pull my thumb away, and the keyhole lets out a faint, wet sound like a throat 
+        ·AFFECT 0.34: the keyhole burns under my thumb like a live wire
+        ·DRIVE 0.10: I want to twist the keyhole until it screams or splits open, until I know if it’
+[t31] «SELF» (sal 1.50 nov 0.37 bore 0.00) → I feel the keyhole’s resistance shift under my thumb, as if it’s grinding against something inside me.
+        ·AFFECT 1.28: I feel the keyhole’s heat rise up my wrist like a slow, steady drip.
+        ·IMAGINATION 0.69: I press harder, and the keyhole shivers like a trapped insect trying to crawl fr
+        ·DRIVE 0.24: I need to twist the keyhole until it screams or splits open, until I know if it’
+        ·MEMORY 0.19: The keyhole burns under my thumb like a live wire.
+
+→ logs/mind-1782210937.jsonl
